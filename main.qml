@@ -1,6 +1,7 @@
 import QtQuick 2.3
 import QtQuick.Window 2.2
 
+<<<<<<< HEAD
 import Pairs 1.0
 
 Window {
@@ -41,4 +42,20 @@ Window {
             }
         }
     }
+=======
+Window {
+    visible: true
+
+    MouseArea {
+        anchors.fill: parent
+        onClicked: {
+            Qt.quit();
+        }
+    }
+
+    Text {
+        text: qsTr("Hello World")
+        anchors.centerIn: parent
+    }
+>>>>>>> 26e8e9849641019959546f3fc2571352deee8027
 }
